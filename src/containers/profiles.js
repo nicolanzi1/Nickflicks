@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import React from 'react';
 import { Header, Profiles } from '../components';
 import * as ROUTES from '../constants/routes';
