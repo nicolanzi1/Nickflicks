@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders the <Form /> with an error 1`] = `
+<div
+  class="form__Container-zkvxoq-0 cslZEl"
+>
+  <div
+    class="form__Error-zkvxoq-1 eRlENi"
+  >
+    Your email address is already being used
+  </div>
+  <button
+    class="form__Submit-zkvxoq-8 gWfooa"
+    type="submit"
+  >
+    Sign In
+  </button>
+</div>
+`;
+
+exports[`<Form /> renders the <Form /> with populated data 1`] = `
+<div
+  class="form__Container-zkvxoq-0 cslZEl"
+>
+  <h1
+    class="form__Title-zkvxoq-3 dMpJNn"
+  >
+    Sign In Now
+  </h1>
+  <form
+    class="form__Base-zkvxoq-2 gYsHGY"
+  >
+    <input
+      class="form__Input-zkvxoq-7 SgGpb"
+      placeholder="Email address"
+    />
+    <input
+      class="form__Input-zkvxoq-7 SgGpb"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-zkvxoq-8 gWfooa"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-zkvxoq-4 hmAuui"
+  >
+    New to Nickflicks? 
+  </p>
+  <p
+    class="form__TextSmall-zkvxoq-5 eWKmey"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+  </p>
+</div>
+`;
