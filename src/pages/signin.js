@@ -15,7 +15,7 @@ export default function SignIn() {
 
   const isInvalid = password === '' || emailAddress === '';
 
-  const handleSignin = (event) => {
+  const handleSignIn = (event) => {
     event.preventDefault();
 
     firebase
@@ -36,9 +36,9 @@ export default function SignIn() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign In</Form.Title>
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
-          <Form.Base onSubmit={handleSignin} method="POST">
+          <Form.Base onSubmit={handleSignIn} method="POST">
             <Form.Input
               placeholder="Email address"
               value={emailAddress}
@@ -51,7 +51,7 @@ export default function SignIn() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit">
+            <Form.Submit data-testid="sign-in" disabled={isInvalid} type="submit">
               Sign In
             </Form.Submit>
           </Form.Base>

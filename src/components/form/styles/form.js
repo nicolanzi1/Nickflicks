@@ -73,6 +73,12 @@ export const Input = styled.input`
   &:last-of-type {
     margin-bottom: 30px;
   }
+
+  :focus,
+  select:focus {
+    outline: none;
+    border-bottom: 3px solid darkorange;
+  }
 `;
 
 export const Submit = styled.button`

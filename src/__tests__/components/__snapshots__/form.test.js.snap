@@ -31,11 +31,11 @@ exports[`<Form /> renders the <Form /> with populated data 1`] = `
     class="form__Base-zkvxoq-2 gYsHGY"
   >
     <input
-      class="form__Input-zkvxoq-7 SgGpb"
+      class="form__Input-zkvxoq-7 bOpTIP"
       placeholder="Email address"
     />
     <input
-      class="form__Input-zkvxoq-7 SgGpb"
+      class="form__Input-zkvxoq-7 bOpTIP"
       placeholder="Password"
       type="password"
     />
