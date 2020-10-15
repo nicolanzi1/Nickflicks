@@ -14,7 +14,6 @@ export default function FaqsContainer() {
           <Accordion.Body>{item.body}</Accordion.Body>
         </Accordion.Item>
       ))}
-      <Accordion.Item />
 
       <OptForm>
         <OptForm.Input placeholder="Email address" />

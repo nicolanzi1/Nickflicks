@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> opens and closes the <Accordion /> component 1`] = `
+<div
+  class="accordion__Container-u7be0a-0 dYUYQg"
+>
+  <div
+    class="accordion__Inner-u7be0a-1 koRFBp"
+  >
+    <h1
+      class="accordion__Title-u7be0a-6 jnvWQv"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        What is Nickflicks?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        How much does Nickflicks cost?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        What can I watch on Nickflicks?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion /> renders the <Accordion /> with populated data 1`] = `
+<div
+  class="accordion__Container-u7be0a-0 dYUYQg"
+>
+  <div
+    class="accordion__Inner-u7be0a-1 koRFBp"
+  >
+    <h1
+      class="accordion__Title-u7be0a-6 jnvWQv"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        What is Nickflicks?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        How much does Nickflicks cost?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-u7be0a-2 bzLKnH"
+    >
+      <div
+        class="accordion__Header-u7be0a-3 iLrtku"
+      >
+        What can I watch on Nickflicks?
+        <img
+          alt="Open"
+          src="images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
