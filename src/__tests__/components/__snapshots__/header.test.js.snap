@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the <Header /> with populated data 1`] = `
+<div
+  class="header__Background-n56a4z-0 kkcuRC"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-n56a4z-2 iUPXHV"
+  >
+    <p
+      class="header__Link-n56a4z-4 bJLMOo"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the <Header /> without populated data 1`] = `
+<div
+  class="header__Background-n56a4z-0 kkcuRC"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-n56a4z-2 iUPXHV"
+  >
+    <p
+      class="header__Link-n56a4z-4 cFYWHw"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the full <Header /> with a background 1`] = `
+<div
+  class="header__Background-n56a4z-0 hWfjKY"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-n56a4z-2 iUPXHV"
+  >
+    <div
+      class="header__Group-n56a4z-1 jEeqxL"
+    >
+      <p
+        class="header__Link-n56a4z-4 cFYWHw"
+      >
+        Series
+      </p>
+      <p
+        class="header__Link-n56a4z-4 cFYWHw"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-n56a4z-1 jEeqxL"
+    >
+      <div
+        class="header__Search-n56a4z-6 hZicvC"
+      >
+        <button
+          class="header__SearchIcon-n56a4z-7 bNulqF"
+          data-testid="search-click"
+        >
+          <img
+            alt="Search"
+            src="/images/icons/search.png"
+          />
+        </button>
+        <input
+          class="header__SearchInput-n56a4z-9 cPbBLj"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-n56a4z-10 ktimhw"
+      >
+        <button
+          class="header__Picture-n56a4z-3 fGGqqO"
+          src="images/users//images/nick.png.png"
+        />
+        <div
+          class="header__Dropdown-n56a4z-5 ghqzgK"
+        >
+          <div
+            class="header__Group-n56a4z-1 jEeqxL"
+          >
+            <button
+              class="header__Picture-n56a4z-3 fGGqqO"
+              src="images/users//images/nick.png.png"
+            />
+            <p
+              class="header__Link-n56a4z-4 cFYWHw"
+            >
+              Nicolino
+            </p>
+          </div>
+          <div
+            class="header__Group-n56a4z-1 jEeqxL"
+          >
+            <p
+              class="header__Link-n56a4z-4 cFYWHw"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-n56a4z-2 header__Feature-n56a4z-13 iUPXHV jnOESS"
+  >
+    <h2
+      class="header__FeatureCallOut-n56a4z-15 dBnGFe"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="header__Text-n56a4z-14 cmNjSW"
+    >
+      Forever alone in a crowd...
+    </p>
+    <button
+      class="header__PlayButton-n56a4z-8 klthRP"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;
