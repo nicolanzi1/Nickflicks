@@ -11,7 +11,7 @@ export default function FooterContainer() {
           <Footer.Link href="#">FAQ</Footer.Link>
           <Footer.Link href="#">Investor Relations</Footer.Link>
           <Footer.Link href="#">Ways to Watch</Footer.Link>
-          <Footer.Link href="#">Corporation Information</Footer.Link>
+          <Footer.Link href="#">Corporate Information</Footer.Link>
           <Footer.Link href="#">Nickflicks Originals</Footer.Link>
         </Footer.Column>
 
