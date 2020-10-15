@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
+<div>
+  <div
+    class="jumbotron__Container-vu6ilb-6 SEXkb"
+  >
+    <div
+      class="jumbotron__Item-vu6ilb-0 YWSxh"
+    >
+      <div
+        class="jumbotron__Inner-vu6ilb-1 Qjrgr"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <h1
+            class="jumbotron__Title-vu6ilb-3 qKVpc"
+          >
+            Enjoy on your TV.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-vu6ilb-4 kZfOVd"
+          >
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <img
+            alt="Tiger King on Nickflicks"
+            class="jumbotron__Image-vu6ilb-5 iSQYXT"
+            data-testid="1-jumbo-image"
+            src="/images/misc/home-tv.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="jumbotron__Item-vu6ilb-0 YWSxh"
+    >
+      <div
+        class="jumbotron__Inner-vu6ilb-1 Qjrgr"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <h1
+            class="jumbotron__Title-vu6ilb-3 qKVpc"
+          >
+            Download your programmes to watch on the go.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-vu6ilb-4 kZfOVd"
+          >
+            Save your data and watch all your favourites offline.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <img
+            alt="Watch on mobile"
+            class="jumbotron__Image-vu6ilb-5 iSQYXT"
+            data-testid="2-jumbo-image"
+            src="/images/misc/home-mobile.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="jumbotron__Item-vu6ilb-0 YWSxh"
+    >
+      <div
+        class="jumbotron__Inner-vu6ilb-1 Qjrgr"
+        direction="row"
+      >
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <h1
+            class="jumbotron__Title-vu6ilb-3 qKVpc"
+          >
+            Watch everywhere.
+          </h1>
+          <h2
+            class="jumbotron__SubTitle-vu6ilb-4 kZfOVd"
+          >
+            Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+          </h2>
+        </div>
+        <div
+          class="jumbotron__Pane-vu6ilb-2 fssigT"
+        >
+          <img
+            alt="Money Heist on Netflix"
+            class="jumbotron__Image-vu6ilb-5 iSQYXT"
+            data-testid="3-jumbo-image"
+            src="/images/misc/home-imac.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

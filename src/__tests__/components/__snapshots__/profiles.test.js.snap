@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-sc-1rbsnue-0 dctGpl"
+>
+  <h1
+    class="profiles__Title-sc-1rbsnue-1 kkFieb"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-1rbsnue-2 jnEBtG"
+  >
+    <li
+      class="profiles__Item-sc-1rbsnue-5 bwPZlt"
+    >
+      <img
+        class="profiles__Picture-sc-1rbsnue-4 jwuAQN"
+        data-testid="profile-picture"
+        src="/images/users//images/nick.png.png"
+      />
+      <p
+        class="profiles__Name-sc-1rbsnue-3 bvlyaS"
+      >
+        Nicolino
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-sc-1rbsnue-0 dctGpl"
+>
+  <h1
+    class="profiles__Title-sc-1rbsnue-1 kkFieb"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-1rbsnue-2 jnEBtG"
+  >
+    <li
+      class="profiles__Item-sc-1rbsnue-5 bwPZlt"
+    >
+      <img
+        class="profiles__Picture-sc-1rbsnue-4 jwuAQN"
+        data-testid="profile-picture-misc"
+        src="/images/users//images/nick.png.png"
+      />
+      <p
+        class="profiles__Name-sc-1rbsnue-3 bvlyaS"
+      >
+        Nicolino
+      </p>
+    </li>
+  </ul>
+</div>
+`;
