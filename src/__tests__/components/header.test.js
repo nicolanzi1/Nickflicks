@@ -5,7 +5,7 @@ import Header from '../../components/header';
 jest.mock('react-router-dom');
 
 describe('<Header />', () => {
-  it('renders the <Header /> with populated data', () => {
+  it('renders the <Header /> with a background', () => {
     const { container, getByText, getByTestId } = render(
       <Header>
         <Header.Frame>
@@ -20,9 +20,9 @@ describe('<Header />', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('renders the <Header /> without populated data', () => {
-    const { container, getByText, getByTestId } = render(
-      <Header>
+  it('renders the <Header /> without a background', () => {
+    const { container, getByText, queryByTestId } = render(
+      <Header bg={false}>
         <Header.Frame>
           <Header.Logo src="nickflicks.png" alt="Nickflicks" />
           <Header.ButtonLink>Sign In</Header.ButtonLink>
@@ -32,7 +32,7 @@ describe('<Header />', () => {
     );
 
     expect(getByText('Hello I am a link!')).toBeTruthy();
-    expect(getByTestId('header-bg')).toBeTruthy();
+    expect(queryByTestId('header-bg')).toBeFalsy();
     expect(container.firstChild).toMatchSnapshot();
   });
 

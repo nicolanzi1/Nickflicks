@@ -48,7 +48,7 @@ exports[`<Profiles /> renders the <Profiles /> with populated data but misc prof
       <img
         class="profiles__Picture-sc-1rbsnue-4 jwuAQN"
         data-testid="profile-picture-misc"
-        src="/images/users//images/nick.png.png"
+        src="/images/misc/loading.gif"
       />
       <p
         class="profiles__Name-sc-1rbsnue-3 bvlyaS"

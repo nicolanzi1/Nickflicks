@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Header /> renders the <Header /> with populated data 1`] = `
+exports[`<Header /> renders the <Header /> with a background 1`] = `
 <div
   class="header__Background-n56a4z-0 kkcuRC"
   data-testid="header-bg"
@@ -17,20 +17,15 @@ exports[`<Header /> renders the <Header /> with populated data 1`] = `
 </div>
 `;
 
-exports[`<Header /> renders the <Header /> without populated data 1`] = `
+exports[`<Header /> renders the <Header /> without a background 1`] = `
 <div
-  class="header__Background-n56a4z-0 kkcuRC"
-  data-testid="header-bg"
+  class="header__Container-n56a4z-2 iUPXHV"
 >
-  <div
-    class="header__Container-n56a4z-2 iUPXHV"
+  <p
+    class="header__Link-n56a4z-4 cFYWHw"
   >
-    <p
-      class="header__Link-n56a4z-4 cFYWHw"
-    >
-      Hello I am a link!
-    </p>
-  </div>
+    Hello I am a link!
+  </p>
 </div>
 `;
 
